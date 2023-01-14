@@ -9,3 +9,4 @@ def getQuotes():
         print(response.text)
     else:
         print("Error:", response.status_code, response.text)
+        
