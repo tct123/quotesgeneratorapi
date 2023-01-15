@@ -11,7 +11,6 @@ def getQuotes():
         quote = data[0]["quote"]
         author = data[0]["author"]
         content = f"{quote}\n\n{author}"
-        print(content)
         return content
     else:
         print("Error:", response.status_code, response.text)
