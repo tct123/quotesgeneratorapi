@@ -1,6 +1,7 @@
 import requests
 import json
 
+
 def getQuotes(self, category, api_key):
     api_url = f'https://api.api-ninjas.com/v1/quotes?category={category}'
     response = requests.get(api_url, headers={'X-Api-Key': api_key})
@@ -12,4 +13,4 @@ def getQuotes(self, category, api_key):
         return content
     else:
         print("Error:", response.status_code, response.text)
-#getQuotes()
+# getQuotes()
