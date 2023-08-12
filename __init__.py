@@ -1,1 +1,0 @@
-from quotesgeneratorapi_wrapper import quotesgenerator

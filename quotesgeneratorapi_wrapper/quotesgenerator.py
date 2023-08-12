@@ -14,6 +14,8 @@ def getQuotes(category, api_key):
         return content
     else:
         print("Error:", response.status_code, response.text)
+
+
 if __name__ == "__main__":
     api_key = input("Input API-key")
     getQuotes(category="happiness", api_key=api_key)
