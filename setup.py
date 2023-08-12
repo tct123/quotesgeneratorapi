@@ -23,7 +23,5 @@ setup(
     packages=find_packages(),
     install_requires=['requests'],
     keywords=['python', 'wrapper', 'api', 'quotes'],
-    classifiers=[
-        "Operating System :: All"
-    ]
+    classifiers=[]
 )
