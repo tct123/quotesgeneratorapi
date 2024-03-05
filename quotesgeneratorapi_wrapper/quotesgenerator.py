@@ -17,7 +17,7 @@ def getQuotes(category, api_key):
 
 if __name__ == "__main__":
     try:
-        api_key = input("Input API-key")
+        api_key = input("Input API-key: ")
         getQuotes(category="happiness", api_key=api_key)
     except:
         pass
