@@ -1,1 +1,0 @@
-quotesgeneratorapi_wrapper
