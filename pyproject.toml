@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "quotesgeneratorapi-wrapper"
-version = "0.2.2"
+version = "0.2.3"
 description = ""
 authors = ["tct123 <42028373+tct123@users.noreply.github.com>"]
 readme = "README.md"
