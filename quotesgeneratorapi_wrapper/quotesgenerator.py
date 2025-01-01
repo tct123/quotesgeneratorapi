@@ -2,7 +2,7 @@ import requests
 import json
 
 
-def getQuotes(category, api_key):
+def getQuotes(api_key, category=""):
     api_url = f"https://api.api-ninjas.com/v1/quotes?category={category}"
     response = requests.get(api_url, headers={"X-Api-Key": api_key})
     if response.status_code == requests.codes.ok:
